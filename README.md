@@ -20,7 +20,7 @@ A React-based application for managing employee details with authentication, for
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Subhojit Mitra18/Clapgrow_React-Task.git
+   git clone https://github.com/SubhojitMitra18/Clapgrow_React-Task.git
    cd foldername
 
 
