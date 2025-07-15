@@ -1,31 +1,26 @@
 
 ````markdown
-# Simple Employee Management System
+Simple Employee Management System
 
 A React-based application for managing employee details with authentication, form validation, data grid display, and email notifications.
 
 ---
 
-## Features
+Features
 
-- **Authentication**: Integrated Clerk for secure user authentication. Only logged-in users can access the main app.
-- **Employee Form**: Uses React Hook Form with Zod for validation.
-- **Data Grid**: Displays employee data using AG Grid with sorting and filtering enabled.
-- **UI Styling**: Styled with ShadCN UI for a modern, responsive interface.
-- **Data Persistence**: Employee data is stored in `localStorage` to retain information across sessions.
-- **Email Notification**: Automatically sends employee details via email upon successful submission and logs the result in the console.
+Authentication: Integrated Clerk for secure user authentication. Only logged-in users can access the main app.
+Employee Form: Uses React Hook Form with Zod for validation.
+Data Grid: Displays employee data using AG Grid with sorting and filtering enabled.
+UI Styling: Styled with ShadCN UI for a modern, responsive interface.
+Data Persistence: Employee data is stored in `localStorage` to retain information across sessions.
+Email Notification: Automatically sends employee details via email upon successful submission and logs the result in the console.
 
 ---
 
-## Setup Instructions
+Setup Instructions
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/simple-employee-management.git
-   cd simple-employee-management
-````
 
-2. **Install Dependencies**
+**Install Dependencies**
 
    ```bash
    npm install
