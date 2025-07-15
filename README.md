@@ -83,6 +83,8 @@ A React-based application for managing employee details with authentication, for
 * AG Grid
 * Clerk React SDK
 * ShadCN UI
+* emailjs
+* tailwindcss
 
 ---
 
