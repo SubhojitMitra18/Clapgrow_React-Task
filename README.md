@@ -44,7 +44,7 @@ A React-based application for managing employee details with authentication, for
 
 5. **Environment Variables**
 
-   * Ensure required environment variables for Clerk and email service are set up in a `.env` file:
+   * Ensuring required environment variables for Clerk and email service are set up in a `.env` file
 
 
 ---
@@ -57,10 +57,10 @@ A React-based application for managing employee details with authentication, for
 
 * **Data Grid Display**: Used AG Grid’s React integration, enabling both filtering and sorting features out of the box.
 
-* **UI Styling**: Applied ShadCN UI components, focusing on clarity and user-friendly layouts.
+* **UI Styling**: Applied ShadCN components, focusing on clarity and user-friendly layouts.
 
 * **Data Persistence**:
-  ✅ **Chosen Method**: `localStorage`.
+  **Chosen Method**: `localStorage`.
 
   * Employee data is saved to `localStorage` using:
 
@@ -82,7 +82,7 @@ A React-based application for managing employee details with authentication, for
 * Zod
 * AG Grid
 * Clerk React SDK
-* ShadCN UI
+* ShadCN
 * emailjs
 * tailwindcss
 
