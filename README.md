@@ -1,26 +1,30 @@
 
-````markdown
-Simple Employee Management System
+# Simple Employee Management System
 
 A React-based application for managing employee details with authentication, form validation, data grid display, and email notifications.
 
 ---
 
-Features
+## Features
 
-Authentication: Integrated Clerk for secure user authentication. Only logged-in users can access the main app.
-Employee Form: Uses React Hook Form with Zod for validation.
-Data Grid: Displays employee data using AG Grid with sorting and filtering enabled.
-UI Styling: Styled with ShadCN UI for a modern, responsive interface.
-Data Persistence: Employee data is stored in `localStorage` to retain information across sessions.
-Email Notification: Automatically sends employee details via email upon successful submission and logs the result in the console.
+- **Authentication**: Integrated Clerk for secure user authentication. Only logged-in users can access the main app.
+- **Employee Form**: Uses React Hook Form with Zod for validation.
+- **Data Grid**: Displays employee data using AG Grid with sorting and filtering enabled.
+- **UI Styling**: Styled with ShadCN UI for a modern, responsive interface.
+- **Data Persistence**: Employee data is stored in `localStorage` to retain information across sessions.
+- **Email Notification**: Automatically sends employee details via email upon successful submission and logs the result in the console.
 
 ---
 
-Setup Instructions
+## Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Subhojit Mitra18/Clapgrow_React-Task.git
+   cd foldername
 
 
-**Install Dependencies**
+2. **Install Dependencies**
 
    ```bash
    npm install
@@ -41,6 +45,12 @@ Setup Instructions
 5. **Environment Variables**
 
    * Ensure required environment variables for Clerk and email service are set up in a `.env` file:
+
+     ```
+     VITE_CLERK_FRONTEND_API=your_clerk_frontend_api
+     VITE_EMAIL_API_URL=your_email_api_url
+     ```
+
 ---
 
 ## Approach & Implementation Notes
@@ -66,6 +76,7 @@ Setup Instructions
 * **Email Trigger**:
 
   * Upon form submission, the app sends an email containing employee details.
+  * Email sending success or failure is logged in the console for monitoring purposes.
 
 ---
 
