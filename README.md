@@ -46,10 +46,6 @@ A React-based application for managing employee details with authentication, for
 
    * Ensure required environment variables for Clerk and email service are set up in a `.env` file:
 
-     ```
-     VITE_CLERK_FRONTEND_API=your_clerk_frontend_api
-     VITE_EMAIL_API_URL=your_email_api_url
-     ```
 
 ---
 
@@ -76,7 +72,6 @@ A React-based application for managing employee details with authentication, for
 * **Email Trigger**:
 
   * Upon form submission, the app sends an email containing employee details.
-  * Email sending success or failure is logged in the console for monitoring purposes.
 
 ---
 
